@@ -6,6 +6,11 @@ body {
   overflow-x: auto;
   flex-wrap: nowrap;
 }
+.row > * {
+  flex-shrink: 0;
+
+  max-width: 100%;
+}
 .image-container {
   position: relative;
   transition: transform 0.2s;
