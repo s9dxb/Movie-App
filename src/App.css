@@ -4,12 +4,11 @@ body {
 }
 .movie-app > .row {
   overflow-x: auto;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
 }
 .row > * {
-  flex-shrink: 0;
-
-  max-width: 100%;
+  width: fit-content;
+  /* max-width: 100%; */
 }
 .image-container {
   position: relative;
